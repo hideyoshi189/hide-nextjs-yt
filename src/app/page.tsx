@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import AddTask from "./conponents/AddTask";
 import TodoList from "./conponents/TodoList";
 import { getAllTodos } from "@/api";
