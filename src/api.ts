@@ -1,5 +1,6 @@
 import { Task } from './types';
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+//上記環境変数を追加
 
 export const getAllTodos = async (): Promise<Task[]> => {
     const res = await fetch(`${API_URL}/tasks`, {
